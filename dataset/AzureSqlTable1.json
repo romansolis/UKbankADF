@@ -1,0 +1,78 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "CustID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CustName",
+				"type": "varchar"
+			},
+			{
+				"name": "CustSurn",
+				"type": "varchar"
+			},
+			{
+				"name": "Age",
+				"type": "varchar"
+			},
+			{
+				"name": "Region",
+				"type": "varchar"
+			},
+			{
+				"name": "Jobclass",
+				"type": "varchar"
+			},
+			{
+				"name": "Datejoined",
+				"type": "varchar"
+			},
+			{
+				"name": "Balance",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "CompleteName",
+				"type": "varchar"
+			},
+			{
+				"name": "vDay",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "vMonth",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "vYear",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "vNamemonth",
+				"type": "varchar"
+			},
+			{
+				"name": "vStatus",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Uk_Male"
+		}
+	}
+}
